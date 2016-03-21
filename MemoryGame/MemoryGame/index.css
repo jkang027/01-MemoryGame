@@ -1,0 +1,30 @@
+﻿#memory_board {
+    background: #ccc;
+    border: #999 1px solid;
+    min-width: 800px;
+    max-width: 800px;
+    width: 800px;
+    min-height: 800px;
+    max-height: 800px;
+    height: 540px;
+    padding: 24px;
+    margin: 0px auto;
+}
+
+#memory_board > div {
+    background-image: url('../img/tile back.jpg');
+    background-size: cover;
+    border: #000 1px solid;
+    min-width: 71px;
+    max-width: 71px;
+    width: 71px;
+    min-height: 71px;
+    max-height: 71px;
+    height: 71px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    font-size: 64px;
+    cursor: pointer;
+    text-align: center;
+}
